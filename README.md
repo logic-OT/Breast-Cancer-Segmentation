@@ -8,7 +8,7 @@ An image segmentation procedure that uses a 4-layered U-Net Architecture to segm
 
 
 ## Data
-- The data used in this project contains .. images of malignant tumours, .. images of benign tumours and .. images of normal CT-Scans creating a total of 780 images
+- The data used in this project contains 210 images of malignant tumours, 437 images of benign tumours and 133 images of normal CT-Scans creating a total of 780 images
 - Each image in the dataset contains varying image sizes ranging from 200x150 to 300x300.
 - A CT-Scan can have more than one mask depending on the number of tumours present in the image
 - each CT-Scan image is saved as a jpg file instead of the usual dicom format
