@@ -4,7 +4,7 @@ An image segmentation procedure that uses a 4-layered U-Net Architecture to segm
 ![tumourbw](https://user-images.githubusercontent.com/61668807/211711623-2197f57f-8aba-4a96-a5c0-e44aae8f0ebf.png)
 ![maskbw](https://user-images.githubusercontent.com/61668807/211711632-2ff9d1ad-80d3-470b-b713-8cd44c17aa22.png)
 
-<b> Note: The ... notebook above contains an idepth explanation of the stated procedure. This the a dumped down version of the contents in the notebook </b>
+<b> Note: The BREAST TUMOUR SEGMENTATION notebook above contains an idepth explanation of the proposed procedure. This the a dumped down version of the contents in the notebook </b>
 
 
 ## Data
