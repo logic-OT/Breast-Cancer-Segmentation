@@ -25,7 +25,7 @@ A 4-layered generic U-Net Architecture is trained to effectively segment the tum
 
 ## Results
 - The Model achieved a training dice score of 92%
-- The Model achieved a testing dice score of 64%
+- The Model achieved a testing dice score of 74%
 
 ## Example output
 ![tumour](https://user-images.githubusercontent.com/61668807/211706649-5d809f94-5f25-4d3c-8c9a-d6b6e8d2b4e6.png)
