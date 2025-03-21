@@ -1,5 +1,5 @@
 # Breast-Cancer-Segmentation
-An image segmentation procedure that uses a 4-layered U-Net Architecture to segment tumours from CT-Scan images of the breast.
+An image segmentation procedure that uses a 4-layered U-Net Architecture to segment tumours from Ultrasound images of the breast.
 
 ![tumourbw](https://user-images.githubusercontent.com/61668807/211711623-2197f57f-8aba-4a96-a5c0-e44aae8f0ebf.png)
 ![maskbw](https://user-images.githubusercontent.com/61668807/211711632-2ff9d1ad-80d3-470b-b713-8cd44c17aa22.png)
@@ -8,17 +8,17 @@ An image segmentation procedure that uses a 4-layered U-Net Architecture to segm
 
 
 ## Data
-- The data used in this project contains 210 images of malignant tumours, 437 images of benign tumours and 133 images of normal CT-Scans creating a total of 780 images
+- The data used in this project contains 210 images of malignant tumours, 437 images of benign tumours and 133 images of normal Ultrasounds creating a total of 780 images
 - Each image in the dataset contains varying image sizes ranging from 200x150 to 300x300.
-- A CT-Scan can have more than one mask depending on the number of tumours present in the image
-- each CT-Scan image is saved as a jpg file instead of the usual dicom format
+- A Ultrasound can have more than one mask depending on the number of tumours present in the image
+- each Ultrasound image is saved as a jpg file instead of the usual dicom format
 - The dataset is available [here](https://drive.google.com/drive/folders/1Q75Eiz0PPBLHvDZfrIvWA9zqtBuw_8W7?usp=sharing)
 
 ## Preprocessing
 - The images are first resized to a dimension 224x224
 - Each image is then coverted to grayscale for simplicity
 - The masks are binarized. That is, each pixel is changed to either be 0 or 1
-- The CT-Scans are the normalised between 0 and 1
+- The Ultrasounds are the normalised between 0 and 1
 
 ## Model Training
 A 4-layered generic U-Net Architecture is trained to effectively segment the tumours. The various levels have fiilter sizes of 32, 64, 128, 256 respectively
